@@ -2,4 +2,6 @@ principal = 1000
 rate = 0.05
 time = 3
 
-print(f"The simple interest is: {principlal * rate * time}")
+interest = principla * rate * time
+
+print(f"The simple interest is: {interest}")
