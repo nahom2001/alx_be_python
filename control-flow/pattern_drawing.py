@@ -1,4 +1,4 @@
-size = int(input("Enter the size of the pattern: \n"))
+size = int(input("Enter the size of the pattern: "))
 
 value = 1
 
