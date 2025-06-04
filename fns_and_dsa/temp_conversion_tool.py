@@ -15,8 +15,7 @@ def main():
     scale = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
 
     if type(temp) != float or type(temp) != int:
-        print("Please enter a numeric value.")
-    else: 
+        print("Invalid tempreature. Please enter a numeric value.")
 
     
 
