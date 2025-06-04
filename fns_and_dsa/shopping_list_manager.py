@@ -26,13 +26,12 @@ def display_menu():
 
 
 def main():
-    shopping_list = []
     while True:
         display_menu()
         choice = int(input("Enter your choice: "))
 
         if choice == 1:
-            item = input("Enter the item you wish to add: ")
+            item = input("Enter the item name you wish to add: ")
             add_items(item)
 
         elif choice == 2:
