@@ -13,7 +13,7 @@ def main():
     try:
         temp = float(input("Enter the temperature to convert: "))
     except ValueError:
-        print("Invalid tempreature. Please enter a numeric value.")
+        print("Invalid temperature. Please enter a numeric value.")
 
 
     
