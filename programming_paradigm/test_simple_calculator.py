@@ -6,11 +6,11 @@ class TestCalculator(unittest.TestCase):
 
     def setUp(self):
         self.calculator = SimpleCalculator()
-    def test_add(self):
+    def test_addition(self):
         result = self.calculator.add(self, -2, 1)
         self.assertEqual(result, -1)
 
-    def test_subtract(self):
+    def test_subtraction(self):
         result = self.calculator.subtract(self, -2, 1)
         self.assertEqual(result, -3)
 
