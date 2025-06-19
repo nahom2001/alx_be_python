@@ -11,4 +11,4 @@ class Calculator():
 
     @classmethod
     def multiply(cls, a, b):
-        return cls.a * cls.b
+        return a * b
